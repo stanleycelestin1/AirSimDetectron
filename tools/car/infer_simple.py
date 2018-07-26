@@ -15,8 +15,8 @@
 # limitations under the License.
 ##############################################################################
 
-"""Perform inference on a single image or all images with a certain extension
-(e.g., .jpg) in a folder.
+"""
+Perform inference real time on airsim simulation that is running.
 """
 
 from __future__ import absolute_import
@@ -24,7 +24,7 @@ from __future__ import division
 from __future__ import print_function
 from __future__ import unicode_literals
 
-#import airsim
+
 
 
 from collections import defaultdict
@@ -150,14 +150,10 @@ def convert_from_cls_format(cls_boxes, cls_segms, cls_keyps):
     return boxes, segms, keyps, classes
 
 def vis_image(fig,
-        im, im_name, output_dir, boxes, segms=None, keypoints=None, thresh=0.9,
-        kp_thresh=2, dpi=200, box_alpha=0.0, dataset=None, show_class=False,
-        ext='pdf'):
+        im, boxes, segms=None, keypoints=None, thresh=0.9,
+        kp_thresh=2, dpi=200, box_alpha=0.0, dataset=None, show_class=False):
 
     """Visual debugging of detections."""
-    print('Checkpoint 1')
-    if not os.path.exists(output_dir):
-        os.makedirs(output_dir)
 
     if isinstance(boxes, list):
         boxes, segms, keypoints, classes = convert_from_cls_format(
@@ -213,7 +209,7 @@ def vis_image(fig,
                 bbox=dict(
                     facecolor='g', alpha=0.4, pad=0, edgecolor='none'),
                 color='white')
-        print('The class string is =========>>> :', get_class_string(classes[i], score, dataset))
+        print('The class string and score is:', get_class_string(classes[i], score, dataset))
         # show mask
         if segms is not None and len(segms) > i:
             img = np.ones(im.shape)
@@ -292,10 +288,6 @@ def vis_image(fig,
 
     plt.draw()
     plt.pause(0.001)
-    # plt.imshow(im)
-    # plt.draw()
-    # plt.pause(0.1)
-
 
 
 
@@ -362,37 +354,26 @@ def main(args):
 
     fig = plt.figure(frameon=False)
 
-    ####### Use AirSim simGetImages-->Image request to get images from airsim and run classification on it
-
 
     # set timer so that conversion will run for a set time
     minutes = 3
     endTime = time.time() + minutes * 60
 
-
-    i = 0
-
-
+    logger.info(
+        ' \ Note: inference on the first image will be slower than the '
+        'rest (caches and auto-tuning need to warm up)'
+    )
     while time.time() < endTime:
-        i+=1
-        im_name = 'AirsimDetect' + str(i)
         raw = client.simGetImages([airsim.ImageRequest("1", airsim.ImageType.Scene, False, False)])
 
         im = np.fromstring(raw[0].image_data_uint8, dtype=np.uint8)  # get numpy array
         im = im.reshape(raw[0].height, raw[0].width, 4)
-        # plt.imshow(im)
-        # plt.draw()
-        # plt.pause(0.1)
-        # continue
-        #im = np.array(im)
+
         b, g, r, a = np.rollaxis(im, axis=-1)
 
         im = np.dstack([r, g, b])
-        print('\n\n\nTHE IMAGE SHAPE IS :==========>>>>   ',im.shape, ' Type >>: ', str(type(im[0][0][0])),'\n\n\n')
 
-        out_name = os.path.join(
-            args.output_dir, '{}'.format(os.path.basename('AirsimDetect'+str(i)) + '.pdf')
-        )
+
         timers = defaultdict(Timer)
         t = time.time()
 
@@ -403,15 +384,11 @@ def main(args):
         logger.info('Inference time: {:.3f}s'.format(time.time() - t))
         for k, v in timers.items():
             logger.info(' | {}: {:.3f}s'.format(k, v.average_time))
-        if i == 0:
-            logger.info(
-                ' \ Note: inference on the first image will be slower than the '
-                'rest (caches and auto-tuning need to warm up)'
-            )
+
+
         vis_image(fig,
             im[:, :, ::-1],  # BGR -> RGB for visualization
-            im_name,
-            args.output_dir,
+
             cls_boxes,
             cls_segms,
             cls_keyps,
@@ -419,8 +396,7 @@ def main(args):
             box_alpha=0.3,
             show_class=True,
             thresh=0.7,
-            kp_thresh=2,
-            ext = 'jpg'  # default is PDF, but we want JPG.
+            kp_thresh=2
         )
 
 
