@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8810b82-5f99-41bc-803e-0b081b9d4036" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tools/car/infer_simple.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/car/infer_simple.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,15 +15,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="infer_simple.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="infer_simple.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tools/car/infer_simple.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1203">
-              <caret line="379" column="40" lean-forward="true" selection-start-line="379" selection-start-column="40" selection-end-line="379" selection-end-column="40" />
+            <state relative-caret-position="703">
+              <caret line="204" column="37" lean-forward="true" selection-start-line="204" selection-start-column="37" selection-end-line="204" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="client.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/airsim/client.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1125">
+              <caret line="93" column="19" selection-start-line="64" selection-start-column="92" selection-end-line="64" selection-end-column="93" />
               <folding>
-                <element signature="e#804#842#0" expanded="true" />
-                <element signature="e#5976#10084#0" />
+                <element signature="e#0#37#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="types.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/airsim/types.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1234">
+              <caret line="250" column="47" selection-start-line="250" selection-start-column="47" selection-end-line="250" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="1325">
+                <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -29,7 +60,7 @@
       <file leaf-file-name="infer.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tools/infer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2500">
+            <state relative-caret-position="1778">
               <caret line="125" column="19" selection-start-line="125" selection-start-column="19" selection-end-line="125" selection-end-column="19" />
             </state>
           </provider>
@@ -60,13 +91,14 @@
         <option value="$PROJECT_DIR$/detectron/utils/env.py" />
         <option value="$PROJECT_DIR$/tools/car/realTimePlayer.py" />
         <option value="$PROJECT_DIR$/tools/car/infer_simple.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1360" />
-    <option name="y" value="28" />
-    <option name="width" value="2474" />
+    <option name="x" value="679" />
+    <option name="y" value="60" />
+    <option name="width" value="3155" />
     <option name="height" value="2100" />
   </component>
   <component name="ProjectView">
@@ -74,7 +106,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -87,15 +118,11 @@
               <item name="detectron" type="462c0819:PsiDirectoryNode" />
               <item name="airsim" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="detectron" type="b2602c69:ProjectViewProjectNode" />
-              <item name="detectron" type="462c0819:PsiDirectoryNode" />
-              <item name="tools" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -133,10 +160,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1360" y="28" width="2474" height="2100" extended-state="0" />
+    <frame x="679" y="60" width="3155" height="2100" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18633792" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14611727" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32918552" />
       <window_info anchor="bottom" id="Version Control" order="9" />
@@ -171,27 +198,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tools/car/infer_simple.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6105">
-          <caret line="407" column="42" selection-start-line="407" selection-start-column="41" selection-end-line="407" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tools/car/testfile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="5" column="4" selection-start-line="6" selection-end-line="6" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tools/car/convert.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="9" lean-forward="true" selection-start-column="9" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tools/car/realTimePlayer.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -473,19 +479,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tools/infer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2500">
+        <state relative-caret-position="1778">
           <caret line="125" column="19" selection-start-line="125" selection-start-column="19" selection-end-line="125" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tools/car/infer_simple.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1203">
-          <caret line="379" column="40" lean-forward="true" selection-start-line="379" selection-start-column="40" selection-end-line="379" selection-end-column="40" />
+        <state relative-caret-position="703">
+          <caret line="204" column="37" lean-forward="true" selection-start-line="204" selection-start-column="37" selection-end-line="204" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/airsim/client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1125">
+          <caret line="93" column="19" selection-start-line="64" selection-start-column="92" selection-end-line="64" selection-end-column="93" />
           <folding>
-            <element signature="e#804#842#0" expanded="true" />
-            <element signature="e#5976#10084#0" />
+            <element signature="e#0#37#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/airsim/types.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1234">
+          <caret line="250" column="47" selection-start-line="250" selection-start-column="47" selection-end-line="250" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="1325">
+            <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

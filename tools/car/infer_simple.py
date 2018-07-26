@@ -175,7 +175,7 @@ def vis_image(fig,
 
 
 
-    dpi /=5
+    dpi /=14
     fig.set_size_inches(im.shape[1]/dpi , im.shape[0] / dpi)
     ax = plt.Axes(fig, [0., 0., 1., 1.])
     ax.axis('off')
@@ -204,7 +204,7 @@ def vis_image(fig,
             ax.text(
                 bbox[0], bbox[1] - 2,
                 get_class_string(classes[i], score, dataset),
-                fontsize=3,
+                fontsize=30,
                 family='serif',
                 bbox=dict(
                     facecolor='g', alpha=0.4, pad=0, edgecolor='none'),
