@@ -92,8 +92,14 @@ c2_utils.import_detectron_ops()
 # OpenCL may be enabled by default in OpenCV3; disable it because it's not
 # thread safe and causes unwanted GPU memory allocations.
 cv2.ocl.setUseOpenCL(False)
-######### Copied function from vis.py for modification
 
+'''
+Copied the following functions below from detectron/utils/vis.py for modification:
+--- get_class_string
+--- kp_connections
+--- convert_from_cls_format
+--- vis_image
+'''
 def get_class_string(class_index, score, dataset):
     class_text = dataset.classes[class_index] if dataset is not None else \
         'id{:d}'.format(class_index)
@@ -172,8 +178,9 @@ def vis_image(fig,
     colors = [cmap(i) for i in np.linspace(0, 1, len(kp_lines) + 2)]
 
 
-    # fig = plt.figure(frameon=False)
-    fig.set_size_inches(im.shape[1] / dpi, im.shape[0] / dpi)
+
+    dpi /=5
+    fig.set_size_inches(im.shape[1]/dpi , im.shape[0] / dpi)
     ax = plt.Axes(fig, [0., 0., 1., 1.])
     ax.axis('off')
     fig.add_axes(ax)
@@ -280,20 +287,18 @@ def vis_image(fig,
                 plt.setp(
                     line, color=colors[len(kp_lines) + 1], linewidth=1.0,
                     alpha=0.7)
-    '''
-    output_name = os.path.basename(im_name) + '.' + ext
-    fig.savefig(os.path.join(output_dir, '{}'.format(output_name)), dpi=dpi)
-    plt.close('all')
-    '''
-    plt.pause(2)
+
+
 
     plt.draw()
+    plt.pause(0.001)
+    # plt.imshow(im)
+    # plt.draw()
+    # plt.pause(0.1)
 
 
 
 
-
-######### End of modification
 
 def parse_args():
     parser = argparse.ArgumentParser(description='End-to-end inference')
@@ -367,17 +372,23 @@ def main(args):
 
     i = 0
 
+
     while time.time() < endTime:
         i+=1
         im_name = 'AirsimDetect' + str(i)
         raw = client.simGetImages([airsim.ImageRequest("1", airsim.ImageType.Scene, False, False)])
+
         im = np.fromstring(raw[0].image_data_uint8, dtype=np.uint8)  # get numpy array
         im = im.reshape(raw[0].height, raw[0].width, 4)
-
+        # plt.imshow(im)
+        # plt.draw()
+        # plt.pause(0.1)
+        # continue
         #im = np.array(im)
-        r, g, b, a = np.rollaxis(im, axis=-1)
+        b, g, r, a = np.rollaxis(im, axis=-1)
 
         im = np.dstack([r, g, b])
+        print('\n\n\nTHE IMAGE SHAPE IS :==========>>>>   ',im.shape, ' Type >>: ', str(type(im[0][0][0])),'\n\n\n')
 
         out_name = os.path.join(
             args.output_dir, '{}'.format(os.path.basename('AirsimDetect'+str(i)) + '.pdf')
