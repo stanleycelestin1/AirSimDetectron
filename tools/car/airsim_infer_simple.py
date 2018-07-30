@@ -388,7 +388,6 @@ def main(args):
 
         vis_image(fig,
             im[:, :, ::-1],  # BGR -> RGB for visualization
-
             cls_boxes,
             cls_segms,
             cls_keyps,

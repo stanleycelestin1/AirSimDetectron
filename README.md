@@ -24,10 +24,12 @@ can use this project as a foundation for things like autonomous navigation.
 
 ## Installation
 
-Install Unreal Engine 4.18 
+Install Unreal Engine 4.18 (Need for Airsim)
 
-Please find installation instructions for Caffe2 and Detectron in INSTALL.md
+Please find installation instructions for Caffe2 and Detectron in INSTALL.md (Needed for Detectron).
 
+
+**[Usefu](https://www.nvidia.com/en-us/data-center/gpu-accelerated-applications/tensorflow/)**
 ## Quick Start: Using AirDetectron
 
 After installation, please see [`GETTING_STARTED.md`](GETTING_STARTED.md) for brief tutorials covering inference and training with Detectron.
