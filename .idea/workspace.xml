@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8810b82-5f99-41bc-803e-0b081b9d4036" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GETTING_STARTED.md" beforeDir="false" afterPath="$PROJECT_DIR$/GETTING_STARTED.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/car/infer_simple.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/infer_simple.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/infer_simple.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,7 +13,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -29,12 +25,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GETTING_STARTED.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="GETTING_STARTED.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/GETTING_STARTED.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="600">
-                <caret line="24" column="43" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="43" />
+              <first_editor relative-caret-position="550">
+                <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
               </first_editor>
               <second_editor />
             </state>
@@ -110,8 +106,8 @@
         <option value="$PROJECT_DIR$/tools/car/infer_simple.py" />
         <option value="$PROJECT_DIR$/tools/car/airsim_infer_simple.py" />
         <option value="$PROJECT_DIR$/tools/infer_simple.py" />
-        <option value="$PROJECT_DIR$/GETTING_STARTED.md" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/GETTING_STARTED.md" />
       </list>
     </option>
   </component>
@@ -546,22 +542,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GETTING_STARTED.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="600">
-            <caret line="24" column="43" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="43" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider editor-type-id="text-editor" />
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="1125">
             <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GETTING_STARTED.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="550">
+            <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
           </first_editor>
           <second_editor />
         </state>

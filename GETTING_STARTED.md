@@ -20,6 +20,3 @@ python tools/car/airsim_infer_simple.py
 
 This should give you a general idea of how airsim get image API's work.
 
-
-http://cseweb.ucsd.edu/~amt062/wearecse.jpg
-http://grad.ucsd.edu/admissions/requirements/what/statement-of-purpose.html
