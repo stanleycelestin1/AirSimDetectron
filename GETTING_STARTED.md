@@ -5,7 +5,16 @@ a folder, we will use Airsim's API's to get images.
 
 
 
-To run inference on the images from airsiom, use  `airsim_infer_simple.py` tool. In this example, we're using an end-to-end trained Mask R-CNN model with a ResNet-101-FPN backbone from the model zoo:
+To run inference on the images from airsiom, use  either:
+
+
+AirDetectronCookbook iPython Notebook in **tools/car/**
+
+
+
+or 
+
+`airsim_infer_simple.py` tool. In this example, we're using an end-to-end trained Mask R-CNN model with a ResNet-101-FPN backbone from the model zoo:
 
 
 ```
@@ -19,4 +28,5 @@ python tools/car/airsim_infer_simple.py
 ```
 
 This should give you a general idea of how airsim get image API's work.
+
 

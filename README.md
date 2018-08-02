@@ -29,7 +29,7 @@ Install Unreal Engine 4.18 (Need for Airsim)
 Please find installation instructions for Caffe2 and Detectron in INSTALL.md (Needed for Detectron).
 
 
-**[Usefu](https://www.nvidia.com/en-us/data-center/gpu-accelerated-applications/tensorflow/)**
+**[Useful Link](https://www.nvidia.com/en-us/data-center/gpu-accelerated-applications/tensorflow/)**
 ## Quick Start: Using AirDetectron
 
 After installation, please see [`GETTING_STARTED.md`](GETTING_STARTED.md) for brief tutorials covering inference and training with Detectron.
