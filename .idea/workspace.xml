@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d8810b82-5f99-41bc-803e-0b081b9d4036" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GETTING_STARTED.md" beforeDir="false" afterPath="$PROJECT_DIR$/GETTING_STARTED.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/car/airsim_infer_simple.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/car/airsim_infer_simple.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,20 +17,20 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="850">
-                <caret line="34" column="35" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
+              <first_editor relative-caret-position="1025">
+                <caret line="41" selection-start-line="41" selection-end-line="41" selection-end-column="45" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GETTING_STARTED.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GETTING_STARTED.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GETTING_STARTED.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="800">
-                <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+              <first_editor relative-caret-position="775">
+                <caret line="31" selection-start-line="31" selection-end-line="31" />
               </first_editor>
               <second_editor />
             </state>
@@ -43,8 +40,8 @@
       <file leaf-file-name="infer.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tools/infer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="553">
-              <caret line="135" column="32" lean-forward="true" selection-start-line="135" selection-start-column="32" selection-end-line="135" selection-end-column="32" />
+            <state relative-caret-position="2750">
+              <caret line="135" column="32" selection-start-line="135" selection-start-column="32" selection-end-line="135" selection-end-column="32" />
               <folding>
                 <element signature="e#1029#1067#0" expanded="true" />
                 <element signature="e#6360#6504#0" />
@@ -56,8 +53,8 @@
       <file leaf-file-name="vis.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/detectron/utils/vis.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="69" column="79" selection-start-line="69" selection-start-column="79" selection-end-line="70" selection-end-column="9" />
+            <state relative-caret-position="6625">
+              <caret line="278" column="9" selection-start-line="277" selection-start-column="4" selection-end-line="282" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -65,8 +62,8 @@
       <file leaf-file-name="infer_simple.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tools/infer_simple.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="17" column="77" selection-start-line="17" selection-start-column="77" selection-end-line="17" selection-end-column="77" />
+            <state relative-caret-position="2975">
+              <caret line="144" column="24" selection-start-line="144" selection-start-column="24" selection-end-line="144" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -83,14 +80,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="airsim_infer_simple.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="airsim_infer_simple.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tools/car/airsim_infer_simple.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="881">
-              <caret line="261" column="41" selection-start-line="261" selection-start-column="41" selection-end-line="261" selection-end-column="41" />
+            <state relative-caret-position="1781">
+              <caret line="221" column="30" lean-forward="true" selection-start-line="221" selection-start-column="30" selection-end-line="221" selection-end-column="30" />
               <folding>
                 <element signature="e#770#808#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_axes.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/local/lib/python2.7/site-packages/matplotlib/axes/_axes.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1275">
+              <caret line="95" column="6" selection-start-line="95" selection-start-column="6" selection-end-line="95" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -145,9 +151,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="4290" />
-    <option name="y" value="66" />
-    <option name="width" value="3155" />
+    <option name="x" value="7680" />
+    <option name="y" value="60" />
+    <option name="width" value="3565" />
     <option name="height" value="2100" />
   </component>
   <component name="ProjectView">
@@ -155,6 +161,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -182,7 +189,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -220,19 +226,18 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="4290" y="66" width="3155" height="2100" extended-state="0" />
-    <editor active="true" />
+    <frame x="7680" y="60" width="3565" height="2100" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14611727" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14586255" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32918552" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -497,8 +502,8 @@
     <entry file="file://$PROJECT_DIR$/tools/car/infer_simple.py" />
     <entry file="file://$PROJECT_DIR$/tools/infer_simple.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="17" column="77" selection-start-line="17" selection-start-column="77" selection-end-line="17" selection-end-column="77" />
+        <state relative-caret-position="2975">
+          <caret line="144" column="24" selection-start-line="144" selection-start-column="24" selection-end-line="144" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -518,8 +523,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tools/car/airsim_infer_simple.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="881">
-          <caret line="261" column="41" selection-start-line="261" selection-start-column="41" selection-end-line="261" selection-end-column="41" />
+        <state relative-caret-position="1781">
+          <caret line="221" column="30" lean-forward="true" selection-start-line="221" selection-start-column="30" selection-end-line="221" selection-end-column="30" />
           <folding>
             <element signature="e#770#808#0" expanded="true" />
           </folding>
@@ -528,15 +533,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/detectron/utils/vis.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="69" column="79" selection-start-line="69" selection-start-column="79" selection-end-line="70" selection-end-column="9" />
+        <state relative-caret-position="6625">
+          <caret line="278" column="9" selection-start-line="277" selection-start-column="4" selection-end-line="282" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tools/infer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="553">
-          <caret line="135" column="32" lean-forward="true" selection-start-line="135" selection-start-column="32" selection-end-line="135" selection-end-column="32" />
+        <state relative-caret-position="2750">
+          <caret line="135" column="32" selection-start-line="135" selection-start-column="32" selection-end-line="135" selection-end-column="32" />
           <folding>
             <element signature="e#1029#1067#0" expanded="true" />
             <element signature="e#6360#6504#0" />
@@ -555,21 +560,21 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="text-editor" />
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="850">
-            <caret line="34" column="35" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
+          <first_editor relative-caret-position="1025">
+            <caret line="41" selection-start-line="41" selection-end-line="41" selection-end-column="45" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
+      <provider editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/GETTING_STARTED.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="800">
-            <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+          <first_editor relative-caret-position="775">
+            <caret line="31" selection-start-line="31" selection-end-line="31" />
           </first_editor>
           <second_editor />
         </state>
