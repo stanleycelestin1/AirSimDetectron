@@ -1,6 +1,6 @@
 # AirSimDetectron
 ### AirSim integraded with Detectron.
-The goal of this project was to connect two worlds together, state of the art simulation with object detection. For simulation, AirSim is utilized and for object detectio.
+The goal of this project was to connect two worlds together, state of the art simulation with object detection. For simulation, AirSim is utilized and for object detection.
 
 
 <div align="center">
